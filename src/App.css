@@ -1,0 +1,27 @@
+.links {
+    margin-right: 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+.logo {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.k {
+    padding: 5px;
+    background-color: #ee481f;
+    color: #fff;
+    border-radius: 5px;
+}
+.k:hover {
+    border: 1px solid #ee481f;
+    background-color: #fff;
+    color: #ee481f;
+}
+@media only screen and (max-width: 450px) {
+    .get-btn {
+        margin-top: 60px;
+    }
+}

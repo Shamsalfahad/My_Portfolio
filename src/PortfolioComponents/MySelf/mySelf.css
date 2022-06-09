@@ -1,0 +1,61 @@
+.my-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    border: 1px solid #ee481f;
+}
+.personal-title {
+    padding: 10px;
+    border-bottom: 3px solid #ee481f;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+.some {
+    font-size: 20px;
+}
+.texts {
+    color: #ffb400;
+    font-size: 23px;
+    font-weight: bold;
+}
+.second-col {
+    margin-top: 300px;
+}
+.experience {
+    border: 1px solid #ee481f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.experience-time {
+    padding: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ee481f;
+}
+.experience-extension {
+    position: relative;
+    bottom: 10px;
+    font-size: 20px;
+    margin-left: 30px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 450px) {
+    .my-title {
+        width: 50%;
+        margin-left: 100px;
+        padding: 10px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .myself-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

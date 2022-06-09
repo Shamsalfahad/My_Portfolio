@@ -1,0 +1,44 @@
+.contact-me {
+    width: 100%;
+    height: 100vh;
+    background-color: #232851;
+    color: white;
+    margin-bottom: -150px;
+}
+.contact-title-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-col-icons3 {
+    font-size: 2rem;
+    margin-top: 00px;
+    margin-left: -70px;
+}
+.map {
+    font-size: 2rem;
+}
+.address-title {
+    font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .contact-me {
+        width: 100%;
+        height: 145vh;
+    }
+    .contact-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
